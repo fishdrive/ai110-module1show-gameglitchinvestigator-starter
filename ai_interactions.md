@@ -1,6 +1,10 @@
 # AI Interactions Log
 
-> **Stretch features only.** Only fill in the sections that apply to stretch features you attempted. If you did not attempt a stretch feature, leave its section blank or delete it. This file is not required for the core project.
+#Additional feature, guess tracker. I asked the agent to create me a feature that tracks the history of the users guesses. The agent modified the app.py file. It added a history file in the session, then made a subheader that shows your previous guesses within the game. I ran the game and it worked exactly to my specifications, so I made no modifications to the code. 
+
+#Localhost name changed to non-glitchy guesser. I simply asked the agent to change the title which was a basic task. No human modifications needed. 
+
+#Enhanced game UI Feature. I had the agent create me a feature which displays different emoji combos when guessing. Being closer to the correct number resulted in flames while being further resulted in snowflakes. It created a definition of temperature indicator in the logic_utils section. The logic seemed perfect for what I needed and ran perfectly fine on the game, so I made no changes. 
 
 ---
 
@@ -20,57 +24,27 @@
 
 <!-- Describe anything the agent got wrong or that required human review -->
 
+
 ---
 
 ## Test Generation (SF7)
 
-> Document how you used AI to help generate or improve tests.
-
-| Edge Case | Prompt Used | AI-Suggested Test | Did It Pass? | Your Reasoning |
-|-----------|-------------|-------------------|--------------|----------------|
-| | | | | |
-| | | | | |
-| | | | | |
-
----
+#Not used
 
 ## Linting & Style (SF9)
 
-> Document your use of AI for linting or code style improvements.
-
-**Prompt used:**
-
-```
-<!-- Paste the prompt you gave the AI -->
-```
-
-**Linting output before:**
-
-```
-<!-- Paste relevant linter warnings/errors -->
-```
-
-**Changes applied:**
-
-<!-- Describe what you changed based on the AI's suggestions -->
-
----
+#Not used
 
 ## Model Comparison (SF11)
 
-> Compare two AI models on the same task.
+<>
+#I asked two different ai models to create me a cold/hot indicator on the numbers the user guessed. It used two different emojis as a symbol whether the user was getting closer or further from the number. 
 
-**Task given to both models:**
+#Gemini AI: Response summary: Gemini wrote notes on the code to let me know how it was going to function for the user. It also told the user alongside with the emoji how their guess was. For the code, I'd say it follows a clear structure that someone who's relatively new to python could read.
 
-<!-- Describe what you asked each model to do -->
+#ChatGPT: Response Summary: ChatGPT did not write notes on the code that let me know what was going on. The code was quicker and seemed a bit more complicated for someone to read. 
 
-| | Model A | Model B |
-|-|---------|---------|
-| **Model name** | | |
-| **Response summary** | | |
-| **More Pythonic?** | | |
-| **Clearer explanation?** | | |
+#Overall, I'd say GeminiAI had a clearer explanation and used code that was more pythonic and readable for someone who's not all so familiar to python. For that reason, I'd prefer GeminiAI's response. 
 
-**Which did you prefer and why?**
 
-<!-- Your conclusion -->
+

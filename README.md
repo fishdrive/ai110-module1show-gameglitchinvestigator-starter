@@ -25,19 +25,19 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+   #The purpose of the game was just for a simple guessing game that users could enjoy. It also served as a baseline to introduce us to using AI agents to help fix broken code. Initially, one of the bugs I first saw was that the difficulty levels had 0 correlation with how hard the guessing game was. The new game button didn't work and the hint button had absolutely zero correlation with where the actual number was at. I fixed all three of those bugs and had the difficulty numbers aligned with where I think they would be. 
+
+
 
 ## 📸 Demo Walkthrough
 
 Describe your fixed game in numbered steps so a reader can follow along without watching a video:
 
-1. <!-- Describe this step -->
-2. <!-- Describe this step -->
-3. <!-- Describe this step -->
-4. <!-- Describe this step -->
-5. <!-- Add more steps as needed -->
+1. Selected hard mode, 100 different numbers and only 5 guesses available
+2. User submits guess of 54, number is too low and within 24 numbers of correct answer
+3. User submits guess of 67, number is too low
+4. User submits guess of 74, guess was correct!
+5. Game ends and there is an option to start a new game. 
 
 **Screenshot** *(optional)*: <!-- Insert a screenshot of your fixed, winning game here -->
 
@@ -52,3 +52,5 @@ Describe your fixed game in numbered steps so a reader can follow along without 
 ## 🚀 Stretch Features
 
 - [ ] [If you choose to complete Challenge 4, describe the Enhanced UI changes here — a screenshot is optional]
+
+#For my enhanced UI features, I added cold and hot emojis to let you know how close you were to the correct answer. Double cold meant you were 50 or more numbers away, cold meant you were 25 or more numbers away, fire meant you were 24 or less away, and double fire meant you were 13 or less away. 
